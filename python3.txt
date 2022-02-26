@@ -1,0 +1,63 @@
+class Nodo:
+
+    def __init__(self, dato):
+        self.int = dato
+        self.left = izdo
+        self.right = dcho
+	dato = valor
+	izdo = dcho= null
+
+
+        # Métodos para asignar accesos
+    def getvalorNodo(self):
+        return self.dato
+
+    def setLabel(self):
+        self.dato = d
+
+    def getSubArbolIzdo(self):
+        return self.izdo
+
+    def setLeft(self, n):
+        self.izdo = n
+
+    def getSubarbolDcho(self):
+        return self.dcho
+
+    def setRight(self, n):
+        self.dcho = n
+
+
+def insert(self, label):
+        # Creamos un nuevo nodo
+        new_node = Node(label, None)
+        # Si el árbol esta vacio
+        if self.empty():
+            self.root = new_node
+        else:
+            # Si el árbol no esta vacio
+            curr_node = self.root
+            while curr_node is not None:
+                parent_node = curr_node
+                if new_node.getLabel() < curr_node.getLabel():
+                    curr_node = curr_node.getLeft()
+                else:
+                    curr_node = curr_node.getRight()
+            if new_node.getLabel() < parent_node.getLabel():
+                parent_node.setLeft(new_node)
+            else:
+                parent_node.setRight(new_node)
+            new_node.setParent(parent_node)      
+
+
+  class Principal     
+ ()
+    Self.arbol= t ();
+
+    t.insert(1)
+    t.insert(1)
+    t.insert(1)
+    t.insert(1)
+    t.insert(1)
+
+
